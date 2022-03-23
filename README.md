@@ -63,3 +63,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # laravelpassport-vue-login
+Login Authentication using Laravel Passport, Laravel as BackEnd API and Vue JS as Front End
+
+# How To Install
+
+    git clone https://github.com/ervanade/laravelpassport-vue-login.git
+    cd laravelpassport-vue-login
+    composer install
+    konfigurasi database file .env & mysql
+    php artisan migrate:fresh 
+    composer require laravel/passport
+    php artisan serve
+
+Buka Terminal Baru
+
+    cd /vue-passport
+    npm install
+    npm run dev
+
+Buka melalui Port localhost:8080 (sesuai port vue / front end)
